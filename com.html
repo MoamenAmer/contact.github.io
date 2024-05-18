@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Communication</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="com.css">
+
+</head>
+<body>
+    <div class="container">
+        <form action="" onsubmit="return sender()">
+            <div class="top">
+                <input type="text" name="name" id="name" placeholder="Your name" required>
+                <label class="switch">
+                    <input type="checkbox" id="b1">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            
+            <input type="email" name="email" id="email" placeholder="Your email" required>
+            <textarea name="message" id="message" cols="20" rows="10" placeholder="Enter message..." required></textarea>
+            <input type="submit" value="Send" id="btn">
+        </form>
+    </div>
+    <script src="com.js"></script>
+</body>
+</html>
